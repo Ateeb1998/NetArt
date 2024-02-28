@@ -12,7 +12,7 @@ export const MidSectionHead = () => {
       </div>
 
       <div className="image-container">
-        <img src={_image3} alt="No image" />
+        <img src={_image3} alt="No" />
         <p className="para">
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
           Solar Systems - Motors
