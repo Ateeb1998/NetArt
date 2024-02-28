@@ -1,0 +1,26 @@
+.item-container {
+  margin: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+}
+
+.line {
+  border-right: 2px solid red;
+  height: 5px;
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+    .line {
+        border-right: 1px solid red;
+        height: 5px;
+        margin: 0 4px;
+      }
+  .item-container {
+    margin: 10px;
+    font-size: 10px;
+  }
+}

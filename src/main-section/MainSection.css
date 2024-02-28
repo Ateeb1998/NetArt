@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .main {
+      width: 100%;
+      flex-direction: row;
+      gap: 10px;
+    }
+  }

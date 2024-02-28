@@ -1,0 +1,13 @@
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 470px;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+      max-width: 200px;
+    }  
+  }
